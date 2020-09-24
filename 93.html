@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>도메인 변경으로 인한 포워딩</title>
+    <!-- 1. 표준 도메인지정 -->
+    <link rel="canonical" href="https://blog.rohnotes.com" />
+    <script type="text/javascript">
+      var dest = 'https://blog.rohnotes.com'; // 2. 옮겨갈 새로운 도메인 지정
+      function canonicalLink() {
+        var link = document.getElementsByTagName('link')[0];
+        link.setAttribute('href', dest + location.pathname); // 3. 포스트 주소가 포함된 canonical을 지정함
+        document.head.appendChild(link);
+      }
+      function domainRedirect() {
+        var origin = location.origin; // 4. 접속한 정보에서 도메인정보를 확보
+        var href = location.href; // 5. 접속한 정보에서 도메인이 포함된 포스트 주소를 확보
+        var destination = href.replace(origin, dest); // 6. 접속한 도메인정보를 옮겨갈 새로운 도메인 주소로 치환
+        location.href = destination; // 7. 이동
+      } // 실행
+      canonicalLink();
+      domainRedirect();
+    </script>
+  </head>
+  <body>
+    도메인 변경으로 인한 포워딩 합니다.
+  </body>
+</html>
