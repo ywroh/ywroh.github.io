@@ -2,6 +2,21 @@ h1 {
   background-color: #9ae0ae;
 }
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  max-width: 1200px;
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+div.desc {
+  text-align: center;
+  color: #ccc;
+}
+
 .fa {
   padding: 20px;
   text-align: center;
