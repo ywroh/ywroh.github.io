@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "D2Coding";
+  src: url("public/font/D2Coding-Ver1.3.2-20180524.ttf");
+}
+
+body {
+  font-family: "D2Coding";
+}
+
 h1 {
   background-color: #9ae0ae;
 }
@@ -137,6 +146,7 @@ div.desc {
   background: #9ae0ae;
   color: white;
   border-width: 0px;
+  font-family: "D2Coding";
 }
 
 .fa-github {
@@ -148,12 +158,14 @@ div.desc {
   background: #08090a;
   color: white;
   border-width: 0px;
+  font-family: "D2Coding";
 }
 
 .fa-stackoverflow {
   background: #f48024;
   color: white;
   border-width: 0px;
+  font-family: "D2Coding";
 }
 
 .fa-medium {
@@ -171,10 +183,12 @@ div.desc {
   background: #ffff00;
   color: black;
   border-width: 0px;
+  font-family: "D2Coding";
 }
 
 .fa-npm {
   background: #231f20;
   color: white;
   border-width: 0px;
+  font-family: "D2Coding";
 }
