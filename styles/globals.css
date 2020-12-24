@@ -30,6 +30,11 @@ div.desc {
 
 div.introduce {
   margin: 5px;
+  color: #fff;
+}
+
+div.related {
+  margin: 5px;
 }
 
 .fa {
