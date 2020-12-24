@@ -5,9 +5,11 @@
 
 body {
   font-family: "D2Coding";
+  margin: 0px;
 }
 
 h1 {
+  margin: 5px;
   background-color: #9ae0ae;
 }
 
@@ -24,6 +26,10 @@ div.gallery img {
 div.desc {
   text-align: center;
   color: #ccc;
+}
+
+div.introduce {
+  margin: 5px;
 }
 
 .fa {
@@ -191,4 +197,22 @@ div.desc {
   color: white;
   border-width: 0px;
   font-family: "D2Coding";
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(117, 114, 113, 0.8) 10%,
+      rgba(40, 49, 77, 0.8) 30%,
+      rgba(29, 35, 71, 0.8) 50%,
+      rgba(19, 25, 28, 0.8) 80%,
+      rgba(15, 14, 14, 0.8) 100%
+    ),
+    url(https://38.media.tumblr.com/tumblr_m00c3czJkM1qbukryo1_500.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
