@@ -6,15 +6,17 @@
 body {
   font-family: "D2Coding";
   margin: 0px;
+  text-align: center;
 }
 
 h1 {
-  margin: 5px;
+  margin: 5px auto;
   background-color: #9ae0ae;
+  max-width: 1200px;
 }
 
 div.gallery {
-  margin: 5px;
+  margin: 5px auto;
   border: 1px solid #ccc;
   max-width: 1200px;
 }
@@ -24,7 +26,6 @@ div.gallery img {
 }
 
 div.desc {
-  text-align: center;
   color: #ccc;
 }
 
