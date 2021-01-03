@@ -1,6 +1,6 @@
 @font-face {
   font-family: "D2Coding";
-  src: url("public/font/D2Coding-Ver1.3.2-20180524.ttf");
+  /*src: url("public/font/D2Coding-Ver1.3.2-20180524.ttf");*/
 }
 
 body {
@@ -26,12 +26,12 @@ div.gallery img {
 }
 
 div.desc {
-  color: #ccc;
+  color: #000;
 }
 
 div.introduce {
   margin: 5px;
-  color: #fff;
+  color: #000;
 }
 
 div.related {
