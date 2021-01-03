@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import mainImage from "./public/image/jeonguk-wpT8YxhNk9w-unsplash.jpg";
+import mainImage from "./image/jeonguk-wpT8YxhNk9w-unsplash.jpg";
 import "./styles/globals.css";
 
 function App() {
