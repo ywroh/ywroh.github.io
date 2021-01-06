@@ -23,9 +23,9 @@ function App() {
       </header>
        */}
       <h1>rohnotes</h1>
-      <div class="gallery">
+      <div className="gallery">
         <img src={mainImage} alt="seoul" />
-        <div class="desc">
+        <div className="desc">
           Photo by{" "}
           <a
             href="https://unsplash.com/@u66kie?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
@@ -44,127 +44,130 @@ function App() {
           </a>
         </div>
       </div>
-      <div class="introduce">
+      <div className="introduce">
         <p>Hello. I am Yongwoo Roh.</p>
         <p>I am working as a cloud web developer in Seoul, Korea.</p>
         <p>I don't know anything.</p>
       </div>
       {/** Add font awesome icons  */}
-      <div class="related">
-        <button
-          type="button"
-          class="fa fa-blog"
-          onclick="window.open('https://blog.rohnotes.com/');"
-        >
-          blog
-        </button>
+      <div className="related">
         <a
           type="button"
-          class="fa fa-facebook"
+          className="fa fa-blog"
+          href="https://blog.rohnotes.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          blog
+        </a>
+        <a
+          type="button"
+          className="fa fa-facebook"
           href="https://www.facebook.com/ywroh2"
           target="_blank"
           rel="noreferrer"
         >
           Facebook
         </a>
-        <br />
         <a
           type="button"
-          class="fa fa-instagram"
+          className="fa fa-instagram"
           href="https://www.instagram.com/ywroh1"
           target="_blank"
           rel="noreferrer"
         >
           Instagram
         </a>
-        <br />
         <a
           type="button"
-          class="fa fa-linkedin"
+          className="fa fa-linkedin"
           href="https://www.linkedin.com/in/ywroh/"
           target="_blank"
           rel="noreferrer"
         >
           LinkedIn
         </a>
-        <br />
         <a
           type="button"
-          class="fa fa-youtube"
+          className="fa fa-youtube"
           href="https://www.youtube.com/channel/UCk4US1liBH0Lk5OS9tfUnPQ?view_as=subscriber"
           target="_blank"
           rel="noreferrer"
         >
           Youtube
         </a>
-        <br />
         <a
           type="button"
-          class="fa fa-github"
+          className="fa fa-github"
           href="https://github.com/ywroh"
           target="_blank"
           rel="noreferrer"
         >
           github
         </a>
-        <br />
-        <button
-          type="button"
-          class="fa fa-dev"
-          onclick="window.open('https://dev.to/ywroh');"
-        >
-          DEV
-        </button>
         <a
           type="button"
-          class="fa fa-twitter"
+          className="fa fa-dev"
+          href="https://dev.to/ywroh"
+          target="_blank"
+          rel="noreferrer"
+        >
+          DEV
+        </a>
+        <a
+          type="button"
+          className="fa fa-twitter"
           href="https://twitter.com/ywroh2"
           target="_blank"
           rel="noreferrer"
         >
           twitter
         </a>
-        <br />
-        <button
-          type="button"
-          class="fa fa-stackoverflow"
-          onclick="window.open('https://stackoverflow.com/users/10385668/yongwooroh');"
-        >
-          stackOverFlow
-        </button>
         <a
           type="button"
-          class="fa fa-medium"
+          className="fa fa-stackoverflow"
+          href="https://stackoverflow.com/users/10385668/yongwooroh"
+          target="_blank"
+          rel="noreferrer"
+        >
+          stackOverFlow
+        </a>
+        <a
+          type="button"
+          className="fa fa-medium"
           href="https://medium.com/@ywroh2"
           target="_blank"
           rel="noreferrer"
         >
           medium
         </a>
-        <br />
         {/**
     <button
       type="button"
-      class="fa fa-trading"
-      onclick="window.open('https://tradingnotes.tistory.com/');"
+      className="fa fa-trading"
+      onClick="window.open('https://tradingnotes.tistory.com/');"
     >
       tradingNotes
     </button>
     */}
-        <button
+        <a
           type="button"
-          class="fa fa-exercise"
-          onclick="window.open('https://www.instagram.com/rohworkout');"
+          className="fa fa-exercise"
+          href="https://www.instagram.com/rohworkout"
+          target="_blank"
+          rel="noreferrer"
         >
           rohworkout
-        </button>
-        <button
+        </a>
+        <a
           type="button"
-          class="fa fa-npm"
-          onclick="window.open('https://www.npmjs.com/~ywroh');"
+          className="fa fa-npm"
+          href="https://www.npmjs.com/~ywroh"
+          target="_blank"
+          rel="noreferrer"
         >
           NPM
-        </button>
+        </a>
       </div>
     </div>
   );
