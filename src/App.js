@@ -47,7 +47,7 @@ function App() {
       <div className="introduce">
         <p>Hello. I am Yongwoo Roh.</p>
         <p>I am working as a cloud web developer in Seoul, Korea.</p>
-        <p>I don't know anything. deploy test. second test.</p>
+        <p>I don't know anything. deploy test. second test. third test.</p>
       </div>
       {/** Add font awesome icons  */}
       <div className="related">
