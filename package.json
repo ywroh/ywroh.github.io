@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build && cp ./public/CNAME ./dist",
-    "deploy": "yarn run build && echo 'sigr.online' > ./build/CNAME && gh-pages -d build"
+    "deploy": "yarn run build && echo 'www.rohnotes.com' > ./build/CNAME && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
