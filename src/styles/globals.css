@@ -1,6 +1,6 @@
 @font-face {
   font-family: "D2Coding";
-  /*src: url("public/font/D2Coding-Ver1.3.2-20180524.ttf");*/
+  src: url("./font/D2Coding-Ver1.3.2-20180524.ttf");
 }
 
 body {
@@ -36,10 +36,16 @@ div.introduce {
 
 div.related {
   margin: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 .fa {
   padding: 20px;
+  margin: 5px;
   text-align: center;
   text-decoration: none;
 }
@@ -200,6 +206,13 @@ div.related {
 
 .fa-npm {
   background: #231f20;
+  color: white;
+  border-width: 0px;
+  font-family: "D2Coding";
+}
+
+.fa-unsplash {
+  background: #000000;
   color: white;
   border-width: 0px;
   font-family: "D2Coding";

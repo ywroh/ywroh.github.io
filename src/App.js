@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import mainImage from "./image/jeonguk-wpT8YxhNk9w-unsplash.jpg";
 import "./styles/globals.css";
@@ -70,7 +69,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Facebook
+          facebook
         </a>
         <a
           type="button"
@@ -79,7 +78,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Instagram
+          instagram
         </a>
         <a
           type="button"
@@ -88,7 +87,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          LinkedIn
+          linkedIn
         </a>
         <a
           type="button"
@@ -97,7 +96,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Youtube
+          youtube
         </a>
         <a
           type="button"
@@ -133,7 +132,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          stackOverFlow
+          stackoverflow
         </a>
         <a
           type="button"
@@ -169,7 +168,16 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          NPM
+          npm
+        </a>
+        <a
+          type="button"
+          className="fa fa-unsplash"
+          href="https://unsplash.com/@ywroh"
+          target="_blank"
+          rel="noreferrer"
+        >
+          unsplash
         </a>
       </div>
     </div>
