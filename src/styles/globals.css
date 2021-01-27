@@ -30,13 +30,16 @@ div.desc {
 }
 
 div.introduce {
-  margin: 5px;
+  margin: 5px auto;
   color: #000;
+
+  max-width: 1200px;
 }
 
 div.related {
-  margin: 5px;
+  margin: 5px auto;
   width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
