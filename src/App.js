@@ -45,7 +45,10 @@ function App() {
       </div>
       <div className="introduce">
         <p>Hello. I am Yongwoo Roh.</p>
-        <p>I am working as a startup cloud web developer in Seoul, Korea.</p>
+        <p>
+          I am working as a startup cloud apps & websites developer in Seoul,
+          Korea.
+        </p>
         <p>I don't know anything. - Daniel Stenberg</p>
         <p>Ignoramus et ignorabimus. - Emil du Bois-Reymond</p>
       </div>
