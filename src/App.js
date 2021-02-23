@@ -152,7 +152,6 @@ function App() {
     >
       tradingNotes
     </button>
-    */}
         <a
           type="button"
           className="fa fa-exercise"
@@ -162,6 +161,7 @@ function App() {
         >
           rohworkout
         </a>
+    */}
         <a
           type="button"
           className="fa fa-npm"
