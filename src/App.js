@@ -72,7 +72,7 @@ function App() {
         <a
           type="button"
           className="fa fa-instagram"
-          href="https://www.instagram.com/ywroh1"
+          href="https://www.instagram.com/heonybadger"
           target="_blank"
           rel="noreferrer"
         >
