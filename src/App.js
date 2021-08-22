@@ -48,7 +48,6 @@ function App() {
         <p>I am working as a startup developer in Seoul, Korea.</p>
         <p>I don't know anything. - Daniel Stenberg</p>
         <p>Ignoramus et ignorabimus. - Emil du Bois-Reymond</p>
-        <p>test</p>
       </div>
       {/** Add font awesome icons  */}
       <div className="related">
@@ -73,7 +72,7 @@ function App() {
         <a
           type="button"
           className="fa fa-instagram"
-          href="https://www.instagram.com/heonybadger"
+          href="https://www.instagram.com/ywroh1"
           target="_blank"
           rel="noreferrer"
         >
