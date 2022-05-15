@@ -54,7 +54,7 @@ function App() {
         <a
           type="button"
           className="fa fa-blog"
-          href="https://ywroh.github.io/"
+          href="https://rohnotes.tistory.com/"
           target="_blank"
           rel="noreferrer"
         >
