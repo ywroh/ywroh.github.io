@@ -54,7 +54,7 @@ function App() {
         <a
           type="button"
           className="fa fa-blog"
-          href="https://blog.rohnotes.com/"
+          href="https://ywroh.github.io/"
           target="_blank"
           rel="noreferrer"
         >
